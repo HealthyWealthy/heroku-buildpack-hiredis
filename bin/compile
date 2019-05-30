@@ -16,7 +16,7 @@ arrow() {
 echo "Installing hiredis" | arrow
 echo "Download package" | indent
 
-PACKAGE_PATH="https://s3-ap-northeast-1.amazonaws.com/keiko-heroku/hiredis-0.11.0.tgz"
+PACKAGE_PATH="https://hiqdev.s3-us-west-2.amazonaws.com/heroku_buildpacks/hiredis-0.14.0.tar.gz"
 LOCATION=$BUILD_DIR/vendor/hiredis
 
 mkdir -p $LOCATION
